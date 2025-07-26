@@ -46,7 +46,7 @@ The model was trained using TensorFlow’s `tf.keras.applications.EfficientNetB4
 
 ![Model Flow Diagram](./screenshot/Model_flow.png)
 
-![Website Result](./screenshot/website.pdf)
+![Website Result](.screenshot/website.pdf)
 
 ---
 
