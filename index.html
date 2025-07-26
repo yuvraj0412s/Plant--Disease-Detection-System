@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plant Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <h1>Plant Disease Detection</h1>
+        <form action="{{ url_for('predict') }}" method="POST" enctype="multipart/form-data">
+            <label for="file-upload" class="custom-file-upload">
+                Choose an image to upload
+            </label>
+            <input id="file-upload" type="file" name="file" accept="image/*" required />
+            <button type="submit">Predict Disease</button>
+        </form>
+    </div>
+</body>
+</html>

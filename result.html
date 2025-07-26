@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Disease Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Uploaded Plant Image" />
+        <div class="result-details">
+            <p><strong>Disease:</strong> {{ disease }}</p>
+            <p><strong>Cause:</strong> {{ cause }}</p>
+            <p><strong>Symptoms:</strong> {{ symptoms }}</p>
+            <p><strong>Treatment:</strong> {{ treatment }}</p>
+            <p><strong>Cure:</strong> {{ cure }}</p>
+        </div>
+        <a href="{{ url_for('index') }}" class="btn-back">← Predict Another</a>
+    </div>
+</body>
+</html>
