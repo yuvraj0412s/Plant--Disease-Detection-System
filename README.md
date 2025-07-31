@@ -100,4 +100,19 @@ pip install -r requirements.txt
 
 # Run the web app
 python app.py
+```
+---
+
+### 🤝 Let's Connect & Collaborate!
+
+If you found this project helpful or interesting, feel free to connect or collaborate!
+
+<p align="center">
+  <a href="https://github.com/yuvraj0412s" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-yuvraj0412s-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://yuvrajsingh-portfolio.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Visit Now-blue?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+</p>
 
